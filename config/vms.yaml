@@ -1,0 +1,6 @@
+---
+vms:
+- name: rpmbuild
+  box: centos7
+  roles:
+  - rpmbuild

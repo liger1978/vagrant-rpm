@@ -1,0 +1,23 @@
+---
+roles:
+  rpmbuild:
+    private_networks:
+      - {ip: '0.0.0.0', auto_network: true}
+    provider:
+      type: virtualbox
+      customize:
+        - [modifyvm, !ruby/sym id, '--memory', 1024]
+    provisioners:
+      - type: hosts
+      - type: shell
+        inline: |
+            yum -y install vim curl git rpm-build redhat-rpm-config
+            
+            
+            
+            
+            
+            
+            
+            
+            
