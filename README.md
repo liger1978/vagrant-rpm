@@ -1,5 +1,5 @@
 # vagrant-rpm
-A basic Vagrant development environment for building RPMs
+A basic CentOS 5 Vagrant development environment for building RPMs
 
 ## Usage
 First install [VirtualBox](https://www.virtualbox.org/) and
@@ -17,7 +17,7 @@ vagrant plugin install vagrant-cachier vagrant-hostmanager
 git clone https://github.com/liger1978/vagrant-rpm.git
 
 # Start and provision the Vagrant environment:
-cd vagrant-pe
+cd vagrant-rpm
 vagrant up
 
 exit
