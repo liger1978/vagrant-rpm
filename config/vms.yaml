@@ -1,6 +1,6 @@
 ---
 vms:
 - name: rpmbuild
-  box: centos7
+  box: centos5
   roles:
   - rpmbuild
